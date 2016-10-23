@@ -1,0 +1,231 @@
+.full-column {
+    width: 100%;
+    overflow: hidden;
+}
+
+.full-column-show {
+    margin: 0 auto;
+    width: 1210px;
+}
+
+.full-column-show {
+    height: 356px;
+}
+.focus-list-wrap {
+    position: relative;
+    float: left;
+    z-index: -1;
+    width: 640px;
+    height: 356px;
+}
+.focus-list-wrap .focus-list {
+    width: inherit;
+    height: inherit;
+}
+.focus-list-wrap .bottomnews-mask-l {
+    right: 100%;
+    width: 640px;
+}
+.focus-list-wrap .bottomnews-mask-r {
+    left: 100%;
+    width: 1920px;
+}
+.focus-list-wrap .bottomnews-mask {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    opacity: 0.5;
+    background-color: #000;
+    height: 356px;
+}
+.focus-list-wrap-copy {
+    display: block;
+    position: absolute;
+    float: left;
+    z-index: 2;
+    width: 640px;
+    height: 356px;
+}
+.focus-list-wrap-copy a {
+    display: block;
+    cursor: pointer;
+}
+.focus-list-wrap-copy a.more {
+    display: table;
+    position: absolute;
+    top: 50%;
+    opacity: .4;
+    filter: opacity=0 alpha(opacity=40);
+    z-index: 2;
+    margin-top: -37.5px;
+    background: #fff;
+    width: 50px;
+    height: 75px;
+    text-align: center;
+}
+.focus-list-wrap-copy a.more span {
+    display: table-cell;
+    vertical-align: middle;
+    color: #aaa;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.focus-list-wrap-copy a.more:hover {
+    opacity: .7;
+    filter: opacity=0 alpha(opacity=70);
+}
+.focus-list-wrap-copy a.more:hover span {
+    color: #f00;
+}
+.focus-list-wrap-copy .prev {
+    left: 0;
+}
+.focus-list-wrap-copy .next {
+    right: 0;
+}
+.content-holder-unit {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+}
+.content-holder-unit img {
+    border: 0 none;
+    background: #888;
+    width: 100%;
+    max-width: none;
+    height: 100%;
+    max-height: none;
+}
+.content-holder-unit:before {
+    display: none;
+}
+.content-holder-unit:after {
+    display: none;
+}
+.content-holder-unit .bottom-overlay {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    opacity: 0.5;
+    background: #000;
+    width: 100%;
+    height: 80px;
+    ZOOM: 1;
+}
+.content-holder-unit.current .bottom-overlay {
+    display: block;
+}
+.content-holder-unit.current:after {
+    display: block;
+    position: absolute;
+    bottom: 30px;
+    z-index: 2;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    content: attr(data-text);
+}
+.elementOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background: #000;
+    width: 100%;
+    height: 100%;
+    filter: opacity=0;
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 80px;
+}
+.img-tip-a {
+    display: block;
+    position: absolute;
+    bottom: 80px;
+    width: 100%;
+    height: 100%;
+}
+.text-tip {
+    position: absolute;
+    bottom: 30px;
+    z-index: 2;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+.focus-tips {
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    text-align: center;
+    color: #eee;
+}
+.focus-tips .tip {
+    cursor: pointer;
+}
+.focus-tips .current {
+    color: #f00;
+}
+.focus-news-list {
+    padding: 10px 30px;
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.9);
+    overflow: hidden;
+}
+.focus-news-list .news-section {
+    border-bottom: 1px solid #c8c8c8;
+    padding-bottom: 5px;
+}
+.focus-news-list .news-section:last-child {
+    border-bottom: none;
+}
+.focus-news-list .news-title {
+    height: 50px;
+    overflow: hidden;
+    display: block;
+    font-weight: bold;
+    font-size: 100%;
+}
+.focus-news-list .news-title a {
+    line-height: 2.5;
+    font-size: 20px;
+    color: #333;
+}
+.focus-news-list .news-title a:hover {
+    color: #f00;
+    text-decoration: none;
+}
+.focus-news-list a {
+    line-height: 2;
+    font-size: px-em(16px);
+    text-decoration: none;
+    color: #666;
+}
+.focus-news-list .news-list p {
+    overflow: hidden;
+    width: 490px;
+    height: 32px;
+}
+.focus-news-list .news-list a {
+    font-size: 14px;
+}
+.focus-news-list .news-list a:hover {
+    text-decoration: none;
+    color: #f00;
+}
+.focus-news-list .news-list a:first-child:before {
+    display: none;
+}
+.focus-news-list .news-list span {
+    margin-right: 10px;
+    margin-left: 6px;
+    color: #666;
+}
