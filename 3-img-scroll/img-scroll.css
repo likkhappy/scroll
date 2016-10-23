@@ -1,0 +1,128 @@
+.full-column {
+    width: 100%;
+    overflow: hidden;
+}
+
+.full-column-show {
+    margin: 0 auto;
+    width: 1210px;
+}
+
+.full-column-show {
+    height: 356px;
+}
+.image-collection-wrap {
+    position: relative;
+    margin-bottom: 40px;
+    width: inherit;
+    height: 338px;
+}
+.image-collection-wrap a {
+    display: block;
+    cursor: pointer;
+}
+.image-collection-wrap a.more {
+    display: table;
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+    margin-top: -40px;
+    background: rgba(255, 255, 255, 0.7);
+    width: 40px;
+    height: 80px;
+    text-align: center;
+}
+.image-collection-wrap a.more span {
+    display: table-cell;
+    vertical-align: middle;
+    color: #fff;
+    font-size: px-em(20px);
+    font-weight: bolder;
+}
+.image-collection-wrap a.more:hover {
+    opacity: .7;
+}
+.image-collection-wrap a.more:hover span {
+    color: #f00;
+}
+.image-collection-wrap .prev {
+    left: 0;
+}
+.image-collection-wrap .next {
+    right: 0;
+}
+.image-collection {
+    width: inherit;
+    height: inherit;
+}
+.collection-tips {
+    padding: 10px;
+    text-align: center;
+    color: #eee;
+}
+.collection-tips .tip {
+    cursor: pointer;
+}
+.collection-tips .current {
+    color: #f00;
+}
+.content-holder-unit {
+    position: absolute;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+}
+.content-holder-unit img {
+    border: 0 none;
+    background: #888;
+    width: 100%;
+    max-width: none;
+    height: 100%;
+    max-height: none;
+}
+.element-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background: #000;
+    width: 100%;
+    height: 100%;
+    filter: opacity=0;
+}
+.img-item {
+    position: relative;
+    float: left;
+    width: 302px;
+    height: 170px;
+}
+.image-wrap {
+    width: 100%;
+    height: 100%;
+}
+.image-tit-wrap {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    font-size: 14px;
+}
+.bottomnews-mask-l {
+    right: 100%;
+}
+.bottomnews-mask-r {
+    left: 100%;
+}
+.bottomnews-mask {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 605px;
+    height: 338px;
+}
